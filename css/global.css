@@ -20,3 +20,23 @@ font-family: 'Anton', sans-serif;
 /////////  Fonts //////////////
 
  ------------------------------------------------------------------------------------*/
+
+
+.navbar-toggler {
+
+  border: 0px;
+
+}
+
+
+.logo_style {
+
+   height: 3rem;
+
+}
+
+.btn_flat_style {
+
+  border-radius: 0px;
+
+}
