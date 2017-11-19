@@ -8,7 +8,7 @@ body {
 
 Dodger Blue color. #1e90ff
 
-HEX COLOR: #BD3039;
+ RED SOX HEX COLOR: #BD3039;
 
 /////////Fonts //////////////
 
@@ -149,4 +149,38 @@ margin-bottom: auto;
       height: 40rem;
       width: 100%;
 
+}
+
+.mobile_text_style {
+
+  font-size: 3rem;
+  margin-top: 10rem;
+  margin-left: 8rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mobile_app_style {
+
+       margin-left: 8rem;
+       margin-top: 2rem;
+
+}
+
+.growth_spacing_icon {
+
+  margin-top: 4rem;
+}
+
+
+.growth_spacing {
+
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.bg-growth {
+
+  background-color: #1e90ff;
+      margin-top: -2rem;
 }
