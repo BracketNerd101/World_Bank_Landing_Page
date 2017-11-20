@@ -192,3 +192,15 @@ margin-bottom: auto;
   background-color: #1e90ff;
       margin-top: -2rem;
 }
+
+.footer_spacing {
+  margin-top: -3rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.mini_spacing {
+
+  margin-top: 4rem;
+
+}
