@@ -36,6 +36,7 @@
               <diiv class="col-md-12 col-lg-12">
                 <p class="text-dark"><i class="fa fa-user-circle-o fa-2x text-success"></i> Exisiting Member
                 </p>
+                <hr class="bg-secondary">
               </diiv><!-- existing member -->
             <form>
              <div class="form-group">
@@ -56,12 +57,42 @@
              <button type="submit" class="btn btn-block btn-success btn_pill_style">Sign in</button>
             </form>
           </div>
-        </div> <!-- end of Sign in title -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        </div> <!-- end of Sign and new account in title -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!--Get email and password retrevial  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="modal btn_flat_style fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-redsox" id="exampleModalLabel"><i class="fa fa-unlock-alt"></i> Forgot your password? </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Email Address for password:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label font-italic text-success">Instructions: Check you inbox for the link to reset your password and or retrieve your username</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-success btn_flat_style">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- Get email and password retrevial -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
           <div class="card col-md-12 col-lg-12 bg-light user_mini_spacing">
             <div class="card-body">
               <diiv class="col-md-12 col-lg-12">
                 <p class="text-dark"><i class="fa fa-user-circle-o fa-2x text-dodger"></i> New Member
                 </p>
+                <hr class="bg-secondary">
               </diiv><!-- existing member -->
             <form>
               <div class="form-group">
@@ -131,8 +162,8 @@
         </form>
         <a href="#" class="btn btn-lg btn-block btn-success btn_pill_style" href="#" role="button">Log in</a>
     </div>
-      <a href="#" class="btn btn-link text-primary font-italic text-left" role="button">Create an Account</a>
-      <a href="#" class="btn btn-link text-primary font-italic text-left" role="button">Forgot username or password?</a>
+      <span style="cursor:pointer" onclick="openNav()"><a href"#" class="btn btn-link text-primary font-italic text-left" onclick="openNav()" role="button">Create an Account</a></span>
+      <a href="#" class="btn btn-link text-primary font-italic text-left" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" role="button">Forgot username or password?</a>
   </div>
   <div class="col-sm-12 col-md-8 col-lg-8 money_banner_style">
        <h1 class="money_banner_header text-white font-bold font-italic">The modern way to bank. <br> The better way to bank. <br> #HumbleBrag <br>
