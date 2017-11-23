@@ -117,7 +117,7 @@ font-family: 'Anton', sans-serif;
 
 .consulting_style {
 
-margin-top: 6rem;
+margin-top: 3rem;
 margin-bottom: auto;
 }
 
@@ -139,7 +139,6 @@ margin-bottom: auto;
       background-size: cover;
       height: 40rem;
       width: 100%;
-
 }
 
 .mobile_banner_style {
@@ -153,8 +152,8 @@ margin-bottom: auto;
 
 .mobile_text_style {
 
-  font-size: 1.8rem;
-  margin-top: 10rem;
+  font-size: 3rem;
+  margin-top: 5rem;
   margin-left: 8rem;
   margin-bottom: 2rem;
   font-family: 'Roboto', sans-serif;
@@ -164,12 +163,11 @@ margin-bottom: auto;
 
        margin-left: 8rem;
        margin-top: 1rem;
-
 }
 
 .growth_spacing_icon {
 
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .growth_text_style {
@@ -177,14 +175,12 @@ margin-bottom: auto;
      /*font-family: 'Anton', sans-serif;*/
      font-family: 'Roboto', sans-serif;
      /*font-family: 'Anton', sans-serif;*/
-
 }
-
 
 .growth_spacing {
 
-  margin-top: 3rem;
-  margin-bottom: 7rem;
+  margin-top: 8rem;
+  margin-bottom: 12rem;
 }
 
 .bg-growth {

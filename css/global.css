@@ -1,7 +1,5 @@
 body {
 
-
-
 }
 
 
@@ -21,18 +19,15 @@ font-family: 'Anton', sans-serif;
 
  ------------------------------------------------------------------------------------*/
 
-
 .navbar-toggler {
 
   border: 0px;
 
 }
 
-
 .logo_style {
 
    height: 3rem;
-
 }
 
 .btn_flat_style {
